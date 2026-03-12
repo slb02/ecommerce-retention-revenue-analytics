@@ -2,6 +2,15 @@
 
 End-to-end analytics project for **customer retention, churn analysis, revenue trends, and RFM segmentation** using **Python, PostgreSQL, SQL, and Tableau**.
 
+![Python](https://img.shields.io/badge/Python-Data%20Cleaning%20%26%20Analysis-blue?style=flat-square&logo=python)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse%20%26%20SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-KPI%20Validation%20%26%20Retention%20Logic-orange?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-Feature%20Engineering%20%26%20KPIs-150458?style=flat-square&logo=pandas)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboarding%20%26%20Storytelling-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Customer Analytics](https://img.shields.io/badge/Customer%20Analytics-Retention%20%26%20Churn-success?style=flat-square)
+![RFM Analysis](https://img.shields.io/badge/RFM-Segmentation-6f42c1?style=flat-square)
+![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Superstore%20Dataset-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+
 This project analyzes e-commerce transactions to answer business-critical questions such as:
 - Which customers are most likely to churn?
 - Which segments contribute the most revenue?
