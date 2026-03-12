@@ -1,6 +1,8 @@
 # E-Commerce Customer Retention & Revenue Analytics
 
-End-to-end analytics project for **customer retention, churn analysis, revenue trends, and RFM segmentation** using **Python, PostgreSQL, SQL, and Tableau**.
+An end-to-end analytics project using Python, PostgreSQL, SQL, and Tableau to analyze customer retention, churn, revenue trends, and RFM customer segments.
+
+Built from raw transactional data through Python-based cleaning, SQL validation, and Tableau dashboarding for business-ready insights.
 
 ![Python](https://img.shields.io/badge/Python-Data%20Cleaning%20%26%20Analysis-blue?style=flat-square&logo=python)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse%20%26%20SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
