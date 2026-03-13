@@ -4,6 +4,8 @@ An end-to-end analytics project using Python, PostgreSQL, SQL, and Tableau to an
 
 Built from raw transactional data through Python-based cleaning, SQL validation, and Tableau dashboarding for business-ready insights.
 
+**Why this project matters:** It demonstrates end-to-end analytics delivery from raw transactional data to business-ready retention, churn, revenue, and customer segmentation insights.
+
 ![Python](https://img.shields.io/badge/Python-Data%20Cleaning%20%26%20Analysis-blue?style=flat-square&logo=python)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse%20%26%20SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-KPI%20Validation%20%26%20Retention%20Logic-orange?style=flat-square)
@@ -65,7 +67,7 @@ The workflow covers **data cleaning, feature engineering, SQL-based validation, 
 - **SQL**
 - **Tableau Public**
 - **Jupyter Notebook**
-- **DataSet: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final**
+- **Dataset: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final**
 ---
 
 ## Project Workflow
@@ -159,28 +161,43 @@ The final dashboard includes:
 ## Repository Structure
 
 ```text
-E-Commerce-Customer-Retention-Revenue-Analytics/
-│
-├── data/
-│   ├── cleaned/
-│   └── outputs/
-│
+ecommerce-retention-revenue-analytics/
+├── README.md
+├── .gitignore
 ├── notebooks/
 │   └── 01_data_cleaning_and_validation.ipynb
-│
 ├── sql/
 │   ├── kpi_queries.sql
 │   ├── retention_queries.sql
 │   ├── retention_by_region_corrected.sql
 │   └── debug_customer_region.sql
-│
+├── data/
+├── raw/
+│   │   └── Superstore.csv
+│   ├── cleaned/
+│   │   └── superstore_cleaned.csv
+│   └── outputs/
+│       ├── executive_summary.csv
+│       ├── monthly_kpis.csv
+│       ├── category_performance.csv
+│       ├── subcategory_performance.csv
+│       ├── region_performance.csv
+│       ├── segment_performance.csv
+│       ├── customer_summary_final.csv
+│       ├── retention_by_segment.csv
+│       ├── retention_by_region.csv
+│       ├── rfm_customer_segments.csv
+│       └── cohort_retention_matrix.csv
 ├── tableau/
 │   └── ecommerce_retention_dashboard.twb
-│
-├── visuals/
-│   └── dashboard_screenshots/
-│
-└── README.md
+└── visuals/
+    └── dashboard_screenshots/
+        ├── executive_dashboard.png
+        ├── monthly_revenue_trend.png
+        ├── revenue_by_category.png
+        ├── revenue_by_region.png
+        ├── retention_by_segment.png
+        └── rfm_customer_segments.png
 ```
 
 ---
