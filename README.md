@@ -152,6 +152,8 @@ The final dashboard includes:
 - Retention by segment
 - RFM customer segment distribution
 
+<img width="1710" height="1107" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/a42c227b-0d6d-4c18-aaed-51f5929291df" />
+
 ---
 
 ## Repository Structure
