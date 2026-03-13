@@ -21,6 +21,8 @@ This project analyzes e-commerce transactions to answer business-critical questi
 
 The workflow covers **data cleaning, feature engineering, SQL-based validation, KPI generation, and dashboard development** for a business-facing analytics use case.
 
+<img width="2400" height="1600" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/3e7e16e3-1869-476f-9239-a580f91ab392" />
+
 ---
 
 ## Project Highlights
@@ -151,8 +153,6 @@ The final dashboard includes:
 - Revenue by region
 - Retention by segment
 - RFM customer segment distribution
-
-<img width="1710" height="1107" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/a42c227b-0d6d-4c18-aaed-51f5929291df" />
 
 ---
 
